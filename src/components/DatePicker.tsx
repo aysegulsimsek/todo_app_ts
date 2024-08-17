@@ -3,7 +3,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DateCalendar, PickersDay, PickersDayProps } from "@mui/x-date-pickers";
 import Badge from "@mui/material/Badge";
-import dayjs, { Dayjs } from "dayjs";
+import { Dayjs } from "dayjs";
 
 interface DatePickerProps {
   onDateChange: (date: Dayjs | null) => void;

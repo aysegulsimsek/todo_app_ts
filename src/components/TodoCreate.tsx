@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { TodoType } from "../types/Types";
 import { createTodo } from "../redux/todoSlice";
 import DatePicker from "../components/DatePicker"; // Takvim bileşeni
-import dayjs, { Dayjs } from "dayjs";
+import { Dayjs } from "dayjs";
 
 function TodoCreate() {
   const dispatch = useDispatch();

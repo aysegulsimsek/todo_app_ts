@@ -8,7 +8,6 @@ import { removeTodo, updateTodo } from "../redux/todoSlice";
 interface TodoTypes {
   todo: TodoType;
 }
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function Todo({ todo }: TodoTypes) {
   const { id, content, date } = todo;
   const [editable, setEditable] = useState<boolean>(false);

@@ -15,7 +15,7 @@ function TodoList() {
   const itemsPerPage = 5;
 
   const handlePageChange = (
-    event: React.ChangeEvent<unknown>,
+    _event: React.ChangeEvent<unknown>,
     value: number
   ) => {
     setPage(value);
